@@ -17,3 +17,11 @@ point N, based on a linear combination of the p previous samples of the that cha
 Changing the value of p will influence the prediction of the model. As a result, I will select the value of p (that 
 is called model order) that leads to the best prediction by applying two different techniques of model selection: 
 one based on a two-fold cross validation, and one based on statistical criteria like AIC and BIC.
+
+The aim of this work is to perform effective connectivity on the EEG signal, therefore try to
+understand which signals are piloting the others and so which are the flows of information. As a result, I need some metrics that are able to evaluate causality of the different connections.
+Moreover, I would like to perform the analysis in the frequency domain, since usually you can retrieve useful information in this domain, for example regarding brain rhythms. Such metrics are based on the Fourier transform of the coefficients of a MVAR model, that is a model able to give you causality information in the time domain (for example the Granger causality).
+That’s why I fitted a MVAR model to the data in the previous stage.
+
+
+More details in the pdf files named "Assignment_1_Alessio_Tonello.pdf" and "Assignment_2_Alessio_Tonello.pdf".
