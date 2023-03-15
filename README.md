@@ -25,3 +25,5 @@ That’s why I fitted a MVAR model to the data in the previous stage.
 
 
 More details in the pdf files named "Assignment_1_Alessio_Tonello.pdf" and "Assignment_2_Alessio_Tonello.pdf".
+
+MATLAB code in "Assignment_2_Alessio_Tonello.m".
