@@ -1,6 +1,7 @@
 # MVAR_EEG
 ### Connectivity Measures of EEG signals using a Multivariate Autoregressive Model (MVAR)
 
+
 The goal of this project is to understand how it is possible to quantify couplings between EEG time-series.
 The quantification can be performed in both time and frequency domain.
 The easier approach in time domain is to evaluate the correlation between time-series. Doing that, you are 
